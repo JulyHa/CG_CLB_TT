@@ -1,5 +1,16 @@
+import java.math.*;
+import java.util.Scanner;
+
 public class NewYear {
     public static void main(String[] args) {
-        System.out.println("Happy new year <3");
+        long n, m, a;
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextLong();
+        m = sc.nextLong();
+        a = sc.nextLong();
+        sc.close();
+
+        long flagstones = (long) Math.ceil((double) n / a) * (long) Math.ceil((double) m / a);
+        System.out.println(flagstones);
     }
 }
