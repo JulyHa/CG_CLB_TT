@@ -11,6 +11,15 @@ public class Bai3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int number, num;
+        // Đếm số lần xuất hiện của x trong mảng
+        // In từng đó lần số lần xuất hiện của x
+        // VD: 1 5 2 6 8 2 1 1
+        // => 1: 3
+        // 2: 2
+        // 5:1
+//        6:1
+//                8:1
+//        => 1 1 1 2 2 5 6 8
 
         System.out.print("Nhập số phần tử của mảng: ");
         number = input.nextInt();
@@ -29,6 +38,5 @@ public class Bai3 {
                 System.out.print(i + " ");
             }
         }
-
     }
 }
